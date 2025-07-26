@@ -1,0 +1,53 @@
+Job Title: 
+Web Developer
+
+We are seeking a skilled Web Developer to design, develop, and maintain responsive websites and web applications. You will collaborate with designers and developers to ensure high-quality, user-friendly products.
+
+
+Responsibilities:
+
+
+Develop and maintain responsive, cross-browser websites and apps.
+
+Collaborate with UX/UI designers on design and user interface.
+
+Write clean, efficient code using HTML, CSS, JavaScript, and frameworks (React, Angular, Vue.js).
+
+Integrate front-end with back-end and databases.
+
+Optimize web pages for performance, accessibility, and SEO.
+
+Troubleshoot and debug issues.
+
+Qualifications:
+
+
+Proven experience in web development.
+
+Proficient in HTML, CSS, JavaScript, and frameworks (React, Angular, Vue.js).
+
+Familiar with back-end technologies (Node.js, PHP, Python) and databases (MySQL, MongoDB).
+
+Strong problem-solving skills and attention to detail.
+
+Knowledge of responsive design principles and mobile-first development.
+
+Good communication skills and ability to work independently or in a team.
+
+Experience with version control (Git).
+
+Preferred Skills:
+
+
+CMS experience (WordPress, Shopify).
+
+Cloud platform knowledge (AWS, Azure).
+
+Web security understanding.
+
+Agile development experience.
+
+Education:
+
+
+Bachelor’s degree in Computer Science or related field (or equivalent experience).
