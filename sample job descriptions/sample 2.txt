@@ -1,0 +1,48 @@
+Job Title: 
+Java Developer
+
+We are looking for a talented Java Developer to join our team and help design, develop, and maintain high-performance applications. You will work with a team of developers to create scalable, efficient, and secure solutions that meet client requirements.
+
+
+Responsibilities:
+
+
+Design, develop, and maintain Java-based applications.
+
+Write clean, efficient, and reusable code.
+
+Collaborate with cross-functional teams to gather and analyze requirements.
+
+Troubleshoot, debug, and optimize existing applications.
+
+Implement software solutions following best practices and coding standards.
+
+Work with databases (e.g., MySQL, PostgreSQL) and APIs for integration.
+
+Perform unit testing and ensure the quality of the code.
+
+Stay updated on Java technologies and industry trends.
+Qualifications:
+
+
+Proven experience as a Java Developer or similar role.
+
+Strong knowledge of Java, object-oriented programming (OOP), and design patterns.
+
+Experience with Java frameworks (Spring, Hibernate).
+
+Familiarity with databases (MySQL, PostgreSQL) and SQL.
+
+Strong problem-solving and analytical skills.
+
+Knowledge of version control systems (e.g., Git).
+
+Good communication skills and ability to work in a team.
+Experience with Agile methodologies is a plus.
+
+Education:
+
+
+Bachelor's degree in Computer Science or related field (or equivalent experience).
+
+
