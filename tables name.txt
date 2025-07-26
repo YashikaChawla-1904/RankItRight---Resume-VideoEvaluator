@@ -1,0 +1,61 @@
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) UNIQUE NOT NULL,
+    Password VARBINARY(255) NOT NULL, -- changed for RAW-like storage
+    Role VARCHAR(50) NOT NULL CHECK (Role IN ('HR Professional', 'Student')),
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE HRResumeRankingHistory (
+    RankingID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) NOT NULL,
+    JobDescription TEXT NOT NULL,
+    Resumes VARBINARY(5000) NOT NULL, -- changed for RAW-like storage
+    Scores VARBINARY(1000),           -- changed for RAW-like storage
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+CREATE TABLE HRSoftSkillRankingHistory (
+    AnalysisID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) NOT NULL,
+    Videos VARBINARY(10000) NOT NULL, -- changed for RAW-like storage
+    Scores VARBINARY(1000),            -- JSON cannot be RAW; but for binary: VARBINARY
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+CREATE TABLE HRFeedbackHistory (
+    FeedbackID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) NOT NULL,
+    Feedback TEXT NOT NULL,
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+CREATE TABLE StudentResumeCheckHistory (
+    CheckID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) NOT NULL,
+    Filename VARCHAR(255) NOT NULL,
+    Suggestions TEXT,
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+CREATE TABLE StudentFeedbackHistory (
+    FeedbackID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(255) NOT NULL,
+    Feedback TEXT NOT NULL,
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+
+
+
+1) Users
+2) HRResumeRankingHistory
+3) HRSoftSkillRankingHistory
+4) HRFeedbackHistory
+5) StudentResumeCheckHistory
+6) StudentFeedbackHistory
